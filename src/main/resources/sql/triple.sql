@@ -151,7 +151,6 @@ CREATE TABLE menu(
 # 예약
 CREATE TABLE booking(
     booking_id BIGINT PRIMARY KEY AUTO_INCREMENT
-    , message VARCHAR(500) NOT NULL
     , check_in DATETIME NOT NULL
     , check_out DATETIME NOT NULL
     , user_id BIGINT NOT NULL
